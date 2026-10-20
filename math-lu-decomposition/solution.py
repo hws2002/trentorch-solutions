@@ -20,7 +20,5 @@ def lu_decompose(A):
         for j in range(i+1, n):
             L[j][i] = U[j][i]/a
             U[j] -= U[i] * L[j][i]
-    print(L)
-    print(U)
     return L, U
     pass
