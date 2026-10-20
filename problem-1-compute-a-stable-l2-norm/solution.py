@@ -7,4 +7,3 @@ def solve(x):
     x = np.array(x)
     max_val = np.max(abs(x))
     return max_val * np.linalg.norm(x / max_val,ord=2)
-    return max_val
